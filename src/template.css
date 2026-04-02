@@ -1,0 +1,123 @@
+.theme-light, .theme-dark {
+  --background-primary: var(--base00);
+  --background-primary-alt: var(--base01);
+  --background-secondary: var(--base01);
+  --background-secondary-alt: var(--base00);
+  --background-modifier-hover: var(--base02);
+  --background-modifier-active-hover: var(--base02);
+  --background-modifier-border: var(--base02);
+  --background-modifier-border-hover: var(--base03);
+  --background-modifier-border-focus: var(--base03);
+  --background-modifier-form-field: var(--base01);
+  --background-modifier-success: var(--base0B);
+  --background-modifier-error: var(--base08);
+  --background-modifier-error-hover: var(--base08);
+  --background-modifier-message: var(--base01);
+
+  --interactive-normal: var(--base01);
+  --interactive-hover: var(--base02);
+  --interactive-accent: var(--base0D);
+  --interactive-accent-hover: var(--base0D-light);
+
+  --text-normal: var(--base05);
+  --text-muted: var(--base04);
+  --text-faint: var(--base03);
+  --text-accent: var(--base0D);
+  --text-accent-hover: var(--base0D-light);
+  --text-on-accent: var(--base07);
+  --text-on-accent-inverted: var(--base06);
+  --text-success: var(--base0B);
+  --text-warning: var(--base09);
+  --text-error: var(--base08);
+  --text-selection: var(--base02-alpha);
+  --text-highlight-bg: var(--base0A-alpha);
+
+  --caret-color: var(--base05);
+
+  --color-red: var(--base08);
+  --color-red-rgb: var(--base08-rgb);
+  --color-orange: var(--base09);
+  --color-orange-rgb: var(--base09-rgb);
+  --color-yellow: var(--base0A);
+  --color-yellow-rgb: var(--base0A-rgb);
+  --color-green: var(--base0B);
+  --color-green-rgb: var(--base0B-rgb);
+  --color-cyan: var(--base0C);
+  --color-cyan-rgb: var(--base0C-rgb);
+  --color-blue: var(--base0D);
+  --color-blue-rgb: var(--base0D-rgb);
+  --color-purple: var(--base0E);
+  --color-purple-rgb: var(--base0E-rgb);
+  --color-pink: var(--base0F);
+  --color-pink-rgb: var(--base0F-rgb);
+
+  --icon-color: var(--base04);
+  --icon-color-hover: var(--base05);
+  --icon-color-active: var(--base0D);
+  --icon-color-focused: var(--base0D);
+  --nav-item-color: var(--base04);
+  --nav-item-color-hover: var(--base05);
+  --nav-item-color-active: var(--base0D);
+  --tab-text-color: var(--base04);
+  --tab-text-color-focused: var(--base05);
+  --tab-text-color-focused-active: var(--base0D);
+
+  --divider-color: var(--base02);
+  --scrollbar-thumb-bg: var(--base02);
+  --scrollbar-active-thumb-bg: var(--base03);
+
+  --accent-h: var(--base0D-h);
+  --accent-s: var(--base0D-s);
+  --accent-l: var(--base0D-l);
+}
+
+/* Headings */
+.theme-light, .theme-dark {
+  --h1-color: var(--base0D);
+  --h2-color: var(--base0D);
+  --h3-color: var(--base0D);
+  --h4-color: var(--base0D);
+  --h5-color: var(--base0D);
+  --h6-color: var(--base0D);
+}
+
+/* Bold, italic, tags */
+.theme-light, .theme-dark {
+  --bold-color: var(--base0A);
+  --italic-color: var(--base0E);
+  --tag-color: var(--base0C);
+  --tag-background: transparent;
+  --tag-border-color: var(--base0C);
+}
+
+/* Links */
+.theme-light, .theme-dark {
+  --link-color: var(--base0D);
+  --link-color-hover: var(--base0D-light);
+  --link-external-color: var(--base0D);
+  --link-external-color-hover: var(--base0D-light);
+  --link-unresolved-color: var(--base0E);
+}
+
+/* Code */
+.theme-light, .theme-dark {
+  --code-normal: var(--base05);
+  --code-background: var(--base01);
+  --code-comment: var(--base03);
+  --code-function: var(--base0D);
+  --code-important: var(--base0E);
+  --code-keyword: var(--base0E);
+  --code-operator: var(--base05);
+  --code-property: var(--base08);
+  --code-punctuation: var(--base05);
+  --code-string: var(--base0B);
+  --code-tag: var(--base08);
+  --code-value: var(--base09);
+}
+
+/* Types/classes: base16 spec assigns base0A (yellow) to classes and types,
+   but Obsidian groups them under --code-function. Override both renderers. */
+.token.class-name,
+.cm-type {
+  color: var(--base0A);
+}
