@@ -1,13 +1,14 @@
 {
-  "name": "obsidian-base16-theme",
-  "version": "0.0.3",
-  "private": true,
-  "scripts": {
-    "fetch-schemes": "node src/fetch-schemes.js",
-    "build": "node src/build.js",
-    "update": "npm run fetch-schemes && npm run build"
-  },
   "dependencies": {
     "js-yaml": "4.1.1"
-  }
+  },
+  "license": "UNLICENSE",
+  "name": "obsidian-base16-theme",
+  "private": true,
+  "scripts": {
+    "build": "node src/build.js",
+    "fetch-schemes": "node src/fetch-schemes.js",
+    "update": "npm run fetch-schemes && npm run build"
+  },
+  "version": "0.0.3"
 }
