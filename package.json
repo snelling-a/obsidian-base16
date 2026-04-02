@@ -1,10 +1,32 @@
 {
+  "author": {
+    "name": "snelling-a",
+    "url": "https://github.com/snelling-a"
+  },
+  "bugs": {
+    "url": "https://github.com/snelling-a/obsidian-base16/issues"
+  },
   "dependencies": {
     "js-yaml": "4.1.1"
   },
+  "description": "A Base16 theme for Obsidian. 200+ color schemes with automatic dark/light mode switching. Powered by tinted-theming.",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/snelling-a"
+  },
+  "homepage": "https://github.com/snelling-a/obsidian-base16",
+  "keywords": [
+    "obsidian",
+    "obsidian-theme",
+    "base16"
+  ],
   "license": "UNLICENSE",
   "name": "obsidian-base16-theme",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snelling-a/obsidian-base16.git"
+  },
   "scripts": {
     "build": "node src/build.js",
     "fetch-schemes": "node src/fetch-schemes.js",
