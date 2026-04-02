@@ -508,6 +508,88 @@ settings:
 
 */
 
+.theme-dark {
+  --base00: #181818;
+  --base00-rgb: 24, 24, 24;
+  --base01: #282828;
+  --base01-rgb: 40, 40, 40;
+  --base02: #383838;
+  --base02-rgb: 56, 56, 56;
+  --base03: #585858;
+  --base03-rgb: 88, 88, 88;
+  --base04: #b8b8b8;
+  --base04-rgb: 184, 184, 184;
+  --base05: #d8d8d8;
+  --base05-rgb: 216, 216, 216;
+  --base06: #e8e8e8;
+  --base06-rgb: 232, 232, 232;
+  --base07: #f8f8f8;
+  --base07-rgb: 248, 248, 248;
+  --base08: #ab4642;
+  --base08-rgb: 171, 70, 66;
+  --base09: #dc9656;
+  --base09-rgb: 220, 150, 86;
+  --base0A: #f7ca88;
+  --base0A-rgb: 247, 202, 136;
+  --base0B: #a1b56c;
+  --base0B-rgb: 161, 181, 108;
+  --base0C: #86c1b9;
+  --base0C-rgb: 134, 193, 185;
+  --base0D: #7cafc2;
+  --base0D-rgb: 124, 175, 194;
+  --base0E: #ba8baf;
+  --base0E-rgb: 186, 139, 175;
+  --base0F: #a16946;
+  --base0F-rgb: 161, 105, 70;
+  --base0D-h: 196;
+  --base0D-s: 36%;
+  --base0D-l: 62%;
+  --base0D-light: #96c9dc;
+  --base0A-alpha: rgba(247, 202, 136, 0.3);
+  --base02-alpha: rgba(56, 56, 56, 0.6);
+}
+
+.theme-light {
+  --base00: #f8f8f8;
+  --base00-rgb: 248, 248, 248;
+  --base01: #e8e8e8;
+  --base01-rgb: 232, 232, 232;
+  --base02: #d8d8d8;
+  --base02-rgb: 216, 216, 216;
+  --base03: #b8b8b8;
+  --base03-rgb: 184, 184, 184;
+  --base04: #585858;
+  --base04-rgb: 88, 88, 88;
+  --base05: #383838;
+  --base05-rgb: 56, 56, 56;
+  --base06: #282828;
+  --base06-rgb: 40, 40, 40;
+  --base07: #181818;
+  --base07-rgb: 24, 24, 24;
+  --base08: #ab4642;
+  --base08-rgb: 171, 70, 66;
+  --base09: #dc9656;
+  --base09-rgb: 220, 150, 86;
+  --base0A: #f7ca88;
+  --base0A-rgb: 247, 202, 136;
+  --base0B: #a1b56c;
+  --base0B-rgb: 161, 181, 108;
+  --base0C: #86c1b9;
+  --base0C-rgb: 134, 193, 185;
+  --base0D: #7cafc2;
+  --base0D-rgb: 124, 175, 194;
+  --base0E: #ba8baf;
+  --base0E-rgb: 186, 139, 175;
+  --base0F: #a16946;
+  --base0F-rgb: 161, 105, 70;
+  --base0D-h: 196;
+  --base0D-s: 36%;
+  --base0D-l: 62%;
+  --base0D-light: #96c9dc;
+  --base0A-alpha: rgba(247, 202, 136, 0.3);
+  --base02-alpha: rgba(216, 216, 216, 0.6);
+}
+
 .theme-light, .theme-dark {
   --background-primary: var(--base00);
   --background-primary-alt: var(--base01);

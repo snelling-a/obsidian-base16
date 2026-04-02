@@ -9,17 +9,17 @@ A theme for [Obsidian](https://obsidian.md) built on the [base16](https://github
 1. Install the [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin
 2. Open BRAT settings → Add Beta Theme
 3. Enter `snelling-a/obsidian-base16-theme`
-4. Install the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin to switch between color schemes
+4. (Optional) Install the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin to switch between color schemes
 
 ### From Community Themes (once approved)
 
 1. Open Obsidian Settings → Appearance → Themes
 2. Search for "Base16" and click Install
-3. Install the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin to switch between color schemes
+3. (Optional) Install the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin to switch between color schemes
 
 ## Usage
 
-Open Settings → Style Settings → Base16 to pick a color scheme. Schemes that have both dark and light variants automatically switch when you toggle Obsidian's dark/light mode.
+The theme works out of the box with the Default Dark/Light scheme. To choose from all 200+ schemes, install the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin and open Settings → Style Settings → Base16. Schemes that have both dark and light variants automatically switch when you toggle Obsidian's dark/light mode.
 
 ## Development
 

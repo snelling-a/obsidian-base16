@@ -207,6 +207,26 @@ function generateStyleSettings(groups) {
   ].join("\n")
 }
 
+/**
+ * Generate fallback CSS blocks for the default scheme.
+ * Applied directly to .theme-dark/.theme-light so the theme works without Style Settings.
+ */
+function generateFallback(groups) {
+  const defaultGroup = groups.get("default")
+  if (!defaultGroup) {
+    return ""
+  }
+
+  const blocks = []
+  if (defaultGroup.dark) {
+    blocks.push(`.theme-dark {\n${paletteToVars(defaultGroup.dark.palette)}\n}`)
+  }
+  if (defaultGroup.light) {
+    blocks.push(`.theme-light {\n${paletteToVars(defaultGroup.light.palette)}\n}`)
+  }
+  return blocks.join("\n\n")
+}
+
 function build() {
   const schemes = loadSchemes()
   const groups = groupSchemes(schemes)
@@ -215,6 +235,8 @@ function build() {
   const parts = []
 
   parts.push(generateStyleSettings(groups))
+  parts.push("")
+  parts.push(generateFallback(groups))
   parts.push("")
   parts.push(template)
   parts.push("")
