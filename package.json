@@ -1,6 +1,6 @@
 {
   "name": "obsidian-base16-theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "fetch-schemes": "node src/fetch-schemes.js",
