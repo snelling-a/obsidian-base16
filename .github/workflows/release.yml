@@ -1,0 +1,117 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - run: npm run update
+
+      - name: Determine version bump from commits
+        id: version
+        run: |
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "0.0.0")
+          echo "latest_tag=$LATEST_TAG" >> "$GITHUB_OUTPUT"
+
+          COMMITS=$(git log "$LATEST_TAG"..HEAD --pretty=format:"%s" 2>/dev/null || git log --pretty=format:"%s")
+
+          BUMP="none"
+          while IFS= read -r msg; do
+            if echo "$msg" | grep -qiE "^(feat|fix|refactor|perf|style|build|ci|docs|test|chore)(\(.+\))?!:"; then
+              BUMP="major"
+              break
+            fi
+            if echo "$msg" | grep -qiE "BREAKING CHANGE"; then
+              BUMP="major"
+              break
+            fi
+          done <<< "$COMMITS"
+
+          if [ "$BUMP" = "none" ]; then
+            while IFS= read -r msg; do
+              if echo "$msg" | grep -qiE "^feat(\(.+\))?:"; then
+                BUMP="minor"
+                break
+              fi
+            done <<< "$COMMITS"
+          fi
+
+          if [ "$BUMP" = "none" ]; then
+            while IFS= read -r msg; do
+              if echo "$msg" | grep -qiE "^(fix|refactor|perf|style|build|ci|docs|test|chore)(\(.+\))?:"; then
+                BUMP="patch"
+              fi
+            done <<< "$COMMITS"
+          fi
+
+          echo "bump=$BUMP" >> "$GITHUB_OUTPUT"
+
+          if [ "$BUMP" = "none" ]; then
+            echo "No conventional commits found, skipping release"
+            exit 0
+          fi
+
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$LATEST_TAG"
+          case "$BUMP" in
+            major) MAJOR=$((MAJOR + 1)); MINOR=0; PATCH=0 ;;
+            minor) MINOR=$((MINOR + 1)); PATCH=0 ;;
+            patch) PATCH=$((PATCH + 1)) ;;
+          esac
+
+          NEW_VERSION="$MAJOR.$MINOR.$PATCH"
+          echo "new_version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+          echo "Bumping $BUMP: $LATEST_TAG -> $NEW_VERSION"
+
+      - name: Update manifest.json version
+        if: steps.version.outputs.bump != 'none'
+        env:
+          NEW_VERSION: ${{ steps.version.outputs.new_version }}
+        run: node -e "const m=require('./manifest.json'); m.version='$NEW_VERSION'; require('fs').writeFileSync('manifest.json', JSON.stringify(m, null, 2)+'\n')"
+
+      - name: Update package.json version
+        if: steps.version.outputs.bump != 'none'
+        env:
+          NEW_VERSION: ${{ steps.version.outputs.new_version }}
+        run: npm version "$NEW_VERSION" --no-git-tag-version
+
+      - name: Rebuild theme.css
+        if: steps.version.outputs.bump != 'none'
+        run: npm run build
+
+      - name: Commit version bump
+        if: steps.version.outputs.bump != 'none'
+        env:
+          NEW_VERSION: ${{ steps.version.outputs.new_version }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifest.json package.json package-lock.json theme.css
+          git commit -m "release: $NEW_VERSION"
+          git tag "$NEW_VERSION"
+          git push origin main --tags
+
+      - name: Create release
+        if: steps.version.outputs.bump != 'none'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.new_version }}
+          name: ${{ steps.version.outputs.new_version }}
+          files: |
+            theme.css
+            manifest.json
