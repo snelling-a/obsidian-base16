@@ -2,6 +2,8 @@
 
 A theme for [Obsidian](https://obsidian.md) built on the [base16](https://github.com/tinted-theming/home) color system. Includes all 200+ base16 schemes with automatic dark/light mode switching.
 
+![](./assets/screenshot.png)
+
 ## Install
 
 ### Using BRAT
