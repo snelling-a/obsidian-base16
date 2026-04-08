@@ -684,10 +684,10 @@ settings:
 
 /* Links */
 .theme-light, .theme-dark {
-  --link-color: var(--base0D);
-  --link-color-hover: var(--base0D-light);
-  --link-external-color: var(--base0D);
-  --link-external-color-hover: var(--base0D-light);
+  --link-color: var(--base0C);
+  --link-color-hover: var(--base0C);
+  --link-external-color: var(--base0C);
+  --link-external-color-hover: var(--base0C);
   --link-unresolved-color: var(--base0E);
 }
 
