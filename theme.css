@@ -621,7 +621,7 @@ settings:
   --text-success: var(--base0B);
   --text-warning: var(--base09);
   --text-error: var(--base08);
-  --text-selection: var(--base02-alpha);
+  --text-selection: hsla(var(--base0D-h), 50%, 40%, 0.3);
   --text-highlight-bg: var(--base0A-alpha);
 
   --caret-color: var(--base05);
