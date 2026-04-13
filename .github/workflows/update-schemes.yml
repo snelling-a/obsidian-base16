@@ -38,3 +38,8 @@ jobs:
           git add theme.css
           git commit -m "chore: update base16 schemes"
           git push
+
+  release:
+    needs: update
+    if: needs.update.result == 'success'
+    uses: ./.github/workflows/release.yml
