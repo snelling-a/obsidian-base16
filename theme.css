@@ -189,6 +189,12 @@ settings:
         value: base16-everforest-dark-medium
       - label: "Everforest Dark Soft"
         value: base16-everforest-dark-soft
+      - label: "Everforest Light (Hard)"
+        value: base16-everforest-light-hard
+      - label: "Everforest Light (Medium)"
+        value: base16-everforest-light-medium
+      - label: "Everforest Light (Soft)"
+        value: base16-everforest-light-soft
       - label: "Everforest"
         value: base16-everforest
       - label: "Flat"
@@ -5223,6 +5229,129 @@ settings:
   --base0D-light: #99d5cd;
   --base0A-alpha: rgba(219, 188, 127, 0.3);
   --base02-alpha: rgba(77, 89, 96, 0.6);
+}
+
+.base16-everforest-light-hard {
+  --base00: #fffbef;
+  --base00-rgb: 255, 251, 239;
+  --base01: #f8f5e4;
+  --base01-rgb: 248, 245, 228;
+  --base02: #edeada;
+  --base02-rgb: 237, 234, 218;
+  --base03: #939f91;
+  --base03-rgb: 147, 159, 145;
+  --base04: #829181;
+  --base04-rgb: 130, 145, 129;
+  --base05: #5c6a72;
+  --base05-rgb: 92, 106, 114;
+  --base06: #414b50;
+  --base06-rgb: 65, 75, 80;
+  --base07: #272e33;
+  --base07-rgb: 39, 46, 51;
+  --base08: #f85552;
+  --base08-rgb: 248, 85, 82;
+  --base09: #f57d26;
+  --base09-rgb: 245, 125, 38;
+  --base0A: #dfa000;
+  --base0A-rgb: 223, 160, 0;
+  --base0B: #8da101;
+  --base0B-rgb: 141, 161, 1;
+  --base0C: #35a77c;
+  --base0C-rgb: 53, 167, 124;
+  --base0D: #3a94c5;
+  --base0D-rgb: 58, 148, 197;
+  --base0E: #df69ba;
+  --base0E-rgb: 223, 105, 186;
+  --base0F: #829181;
+  --base0F-rgb: 130, 145, 129;
+  --base0D-h: 201;
+  --base0D-s: 55%;
+  --base0D-l: 50%;
+  --base0D-light: #54aedf;
+  --base0A-alpha: rgba(223, 160, 0, 0.3);
+  --base02-alpha: rgba(237, 234, 218, 0.6);
+}
+
+.base16-everforest-light-medium {
+  --base00: #fdf6e3;
+  --base00-rgb: 253, 246, 227;
+  --base01: #f4f0d9;
+  --base01-rgb: 244, 240, 217;
+  --base02: #e6e2cc;
+  --base02-rgb: 230, 226, 204;
+  --base03: #939f91;
+  --base03-rgb: 147, 159, 145;
+  --base04: #829181;
+  --base04-rgb: 130, 145, 129;
+  --base05: #5c6a72;
+  --base05-rgb: 92, 106, 114;
+  --base06: #475258;
+  --base06-rgb: 71, 82, 88;
+  --base07: #2d353b;
+  --base07-rgb: 45, 53, 59;
+  --base08: #f85552;
+  --base08-rgb: 248, 85, 82;
+  --base09: #f57d26;
+  --base09-rgb: 245, 125, 38;
+  --base0A: #dfa000;
+  --base0A-rgb: 223, 160, 0;
+  --base0B: #8da101;
+  --base0B-rgb: 141, 161, 1;
+  --base0C: #35a77c;
+  --base0C-rgb: 53, 167, 124;
+  --base0D: #3a94c5;
+  --base0D-rgb: 58, 148, 197;
+  --base0E: #df69ba;
+  --base0E-rgb: 223, 105, 186;
+  --base0F: #829181;
+  --base0F-rgb: 130, 145, 129;
+  --base0D-h: 201;
+  --base0D-s: 55%;
+  --base0D-l: 50%;
+  --base0D-light: #54aedf;
+  --base0A-alpha: rgba(223, 160, 0, 0.3);
+  --base02-alpha: rgba(230, 226, 204, 0.6);
+}
+
+.base16-everforest-light-soft {
+  --base00: #f3ead3;
+  --base00-rgb: 243, 234, 211;
+  --base01: #eae4ca;
+  --base01-rgb: 234, 228, 202;
+  --base02: #ddd8be;
+  --base02-rgb: 221, 216, 190;
+  --base03: #939f91;
+  --base03-rgb: 147, 159, 145;
+  --base04: #829181;
+  --base04-rgb: 130, 145, 129;
+  --base05: #5c6a72;
+  --base05-rgb: 92, 106, 114;
+  --base06: #4d5960;
+  --base06-rgb: 77, 89, 96;
+  --base07: #333c43;
+  --base07-rgb: 51, 60, 67;
+  --base08: #f85552;
+  --base08-rgb: 248, 85, 82;
+  --base09: #f57d26;
+  --base09-rgb: 245, 125, 38;
+  --base0A: #dfa000;
+  --base0A-rgb: 223, 160, 0;
+  --base0B: #8da101;
+  --base0B-rgb: 141, 161, 1;
+  --base0C: #35a77c;
+  --base0C-rgb: 53, 167, 124;
+  --base0D: #3a94c5;
+  --base0D-rgb: 58, 148, 197;
+  --base0E: #df69ba;
+  --base0E-rgb: 223, 105, 186;
+  --base0F: #829181;
+  --base0F-rgb: 130, 145, 129;
+  --base0D-h: 201;
+  --base0D-s: 55%;
+  --base0D-l: 50%;
+  --base0D-light: #54aedf;
+  --base0A-alpha: rgba(223, 160, 0, 0.3);
+  --base02-alpha: rgba(221, 216, 190, 0.6);
 }
 
 .base16-everforest {
