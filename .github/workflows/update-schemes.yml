@@ -42,4 +42,6 @@ jobs:
   release:
     needs: update
     if: needs.update.result == 'success'
+    permissions:
+      contents: write
     uses: ./.github/workflows/release.yml
