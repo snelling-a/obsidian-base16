@@ -437,6 +437,8 @@ settings:
         value: base16-summercamp
       - label: "Summerfruit"
         value: base16-summerfruit
+      - label: "Swamp"
+        value: base16-swamp
       - label: "Synth Midnight Terminal"
         value: base16-synth-midnight
       - label: "Tango"
@@ -11297,6 +11299,88 @@ settings:
   --base0D-light: #5191ff;
   --base0A-alpha: rgba(171, 168, 0, 0.3);
   --base02-alpha: rgba(208, 208, 208, 0.6);
+}
+
+.theme-dark.base16-swamp {
+  --base00: #242015;
+  --base00-rgb: 36, 32, 21;
+  --base01: #3A3124;
+  --base01-rgb: 58, 49, 36;
+  --base02: #4D3F32;
+  --base02-rgb: 77, 63, 50;
+  --base03: #5F4E41;
+  --base03-rgb: 95, 78, 65;
+  --base04: #B8A58C;
+  --base04-rgb: 184, 165, 140;
+  --base05: #D2C3A4;
+  --base05-rgb: 210, 195, 164;
+  --base06: #EBE0BB;
+  --base06-rgb: 235, 224, 187;
+  --base07: #F1E9D0;
+  --base07-rgb: 241, 233, 208;
+  --base08: #DB930D;
+  --base08-rgb: 219, 147, 13;
+  --base09: #EBE0BB;
+  --base09-rgb: 235, 224, 187;
+  --base0A: #A82D56;
+  --base0A-rgb: 168, 45, 86;
+  --base0B: #7A7653;
+  --base0B-rgb: 122, 118, 83;
+  --base0C: #DB930D;
+  --base0C-rgb: 219, 147, 13;
+  --base0D: #C1666B;
+  --base0D-rgb: 193, 102, 107;
+  --base0E: #91506C;
+  --base0E-rgb: 145, 80, 108;
+  --base0F: #61A0A8;
+  --base0F-rgb: 97, 160, 168;
+  --base0D-h: 357;
+  --base0D-s: 42%;
+  --base0D-l: 58%;
+  --base0D-light: #db8085;
+  --base0A-alpha: rgba(168, 45, 86, 0.3);
+  --base02-alpha: rgba(77, 63, 50, 0.6);
+}
+
+.theme-light.base16-swamp {
+  --base00: #F1E3D1;
+  --base00-rgb: 241, 227, 209;
+  --base01: #DDCEBC;
+  --base01-rgb: 221, 206, 188;
+  --base02: #C9B9A7;
+  --base02-rgb: 201, 185, 167;
+  --base03: #B5A492;
+  --base03-rgb: 181, 164, 146;
+  --base04: #A0907D;
+  --base04-rgb: 160, 144, 125;
+  --base05: #64513E;
+  --base05-rgb: 100, 81, 62;
+  --base06: #786653;
+  --base06-rgb: 120, 102, 83;
+  --base07: #8C7B68;
+  --base07-rgb: 140, 123, 104;
+  --base08: #D09700;
+  --base08-rgb: 208, 151, 0;
+  --base09: #64513E;
+  --base09-rgb: 100, 81, 62;
+  --base0A: #993333;
+  --base0A-rgb: 153, 51, 51;
+  --base0B: #908D6A;
+  --base0B-rgb: 144, 141, 106;
+  --base0C: #d09700;
+  --base0C-rgb: 208, 151, 0;
+  --base0D: #BF7979;
+  --base0D-rgb: 191, 121, 121;
+  --base0E: #9E5581;
+  --base0E-rgb: 158, 85, 129;
+  --base0F: #75858C;
+  --base0F-rgb: 117, 133, 140;
+  --base0D-h: 0;
+  --base0D-s: 35%;
+  --base0D-l: 61%;
+  --base0D-light: #d99393;
+  --base0A-alpha: rgba(153, 51, 51, 0.3);
+  --base02-alpha: rgba(201, 185, 167, 0.6);
 }
 
 .theme-dark.base16-synth-midnight {
