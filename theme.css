@@ -77,8 +77,6 @@ settings:
         value: base16-blueforest
       - label: "Blueish"
         value: base16-blueish
-      - label: "booshnickle dark"
-        value: base16-booshnickle
       - label: "Brewer"
         value: base16-brewer
       - label: "Bright"
@@ -2566,47 +2564,6 @@ settings:
   --base0D-light: #9cc4ff;
   --base0A-alpha: rgba(246, 205, 92, 0.3);
   --base02-alpha: rgba(70, 41, 10, 0.6);
-}
-
-.base16-booshnickle {
-  --base00: #191914;
-  --base00-rgb: 25, 25, 20;
-  --base01: #3a3a2e;
-  --base01-rgb: 58, 58, 46;
-  --base02: #5b5b49;
-  --base02-rgb: 91, 91, 73;
-  --base03: #7c7c63;
-  --base03-rgb: 124, 124, 99;
-  --base04: #9c9c7d;
-  --base04-rgb: 156, 156, 125;
-  --base05: #bdbd97;
-  --base05-rgb: 189, 189, 151;
-  --base06: #dedeb2;
-  --base06-rgb: 222, 222, 178;
-  --base07: #ffffcc;
-  --base07-rgb: 255, 255, 204;
-  --base08: #ffbfa5;
-  --base08-rgb: 255, 191, 165;
-  --base09: #ffdc99;
-  --base09-rgb: 255, 220, 153;
-  --base0A: #fff299;
-  --base0A-rgb: 255, 242, 153;
-  --base0B: #e7ff99;
-  --base0B-rgb: 231, 255, 153;
-  --base0C: #bfffc5;
-  --base0C-rgb: 191, 255, 197;
-  --base0D: #ccbfd9;
-  --base0D-rgb: 204, 191, 217;
-  --base0E: #f2bfd9;
-  --base0E-rgb: 242, 191, 217;
-  --base0F: #e5d6a6;
-  --base0F-rgb: 229, 214, 166;
-  --base0D-h: 270;
-  --base0D-s: 25%;
-  --base0D-l: 80%;
-  --base0D-light: #e6d9f3;
-  --base0A-alpha: rgba(255, 242, 153, 0.3);
-  --base02-alpha: rgba(91, 91, 73, 0.6);
 }
 
 .base16-brewer {
