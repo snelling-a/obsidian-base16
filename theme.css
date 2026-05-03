@@ -281,6 +281,10 @@ settings:
         value: base16-katy
       - label: "Kimber"
         value: base16-kimber
+      - label: "Kissa Latte"
+        value: base16-kissa-latte
+      - label: "Kissa Macchiato"
+        value: base16-kissa-macchiato
       - label: "lime"
         value: base16-lime
       - label: "Linux VT"
@@ -7566,6 +7570,88 @@ settings:
   --base0D-light: #6d96b6;
   --base0A-alpha: rgba(216, 181, 109, 0.3);
   --base02-alpha: rgba(85, 93, 85, 0.6);
+}
+
+.base16-kissa-latte {
+  --base00: #F5F4F0;
+  --base00-rgb: 245, 244, 240;
+  --base01: #E8E7E3;
+  --base01-rgb: 232, 231, 227;
+  --base02: #D5D2CB;
+  --base02-rgb: 213, 210, 203;
+  --base03: #91887D;
+  --base03-rgb: 145, 136, 125;
+  --base04: #746C62;
+  --base04-rgb: 116, 108, 98;
+  --base05: #1F1C16;
+  --base05-rgb: 31, 28, 22;
+  --base06: #6E6459;
+  --base06-rgb: 110, 100, 89;
+  --base07: #FEFCFA;
+  --base07-rgb: 254, 252, 250;
+  --base08: #9E3E3E;
+  --base08-rgb: 158, 62, 62;
+  --base09: #8F5D22;
+  --base09-rgb: 143, 93, 34;
+  --base0A: #7D6820;
+  --base0A-rgb: 125, 104, 32;
+  --base0B: #387050;
+  --base0B-rgb: 56, 112, 80;
+  --base0C: #287070;
+  --base0C-rgb: 40, 112, 112;
+  --base0D: #3468A8;
+  --base0D-rgb: 52, 104, 168;
+  --base0E: #6438A0;
+  --base0E-rgb: 100, 56, 160;
+  --base0F: #943A68;
+  --base0F-rgb: 148, 58, 104;
+  --base0D-h: 213;
+  --base0D-s: 53%;
+  --base0D-l: 43%;
+  --base0D-light: #4e82c2;
+  --base0A-alpha: rgba(125, 104, 32, 0.3);
+  --base02-alpha: rgba(213, 210, 203, 0.6);
+}
+
+.base16-kissa-macchiato {
+  --base00: #1F1C16;
+  --base00-rgb: 31, 28, 22;
+  --base01: #35322D;
+  --base01-rgb: 53, 50, 45;
+  --base02: #47443F;
+  --base02-rgb: 71, 68, 63;
+  --base03: #B8A48C;
+  --base03-rgb: 184, 164, 140;
+  --base04: #D4C4A8;
+  --base04-rgb: 212, 196, 168;
+  --base05: #FAF0E6;
+  --base05-rgb: 250, 240, 230;
+  --base06: #E8D5B7;
+  --base06-rgb: 232, 213, 183;
+  --base07: #FEF4E4;
+  --base07-rgb: 254, 244, 228;
+  --base08: #E87777;
+  --base08-rgb: 232, 119, 119;
+  --base09: #DA9050;
+  --base09-rgb: 218, 144, 80;
+  --base0A: #EAC67A;
+  --base0A-rgb: 234, 198, 122;
+  --base0B: #8CB870;
+  --base0B-rgb: 140, 184, 112;
+  --base0C: #6AB8B0;
+  --base0C-rgb: 106, 184, 176;
+  --base0D: #7FA8D4;
+  --base0D-rgb: 127, 168, 212;
+  --base0E: #B094CC;
+  --base0E-rgb: 176, 148, 204;
+  --base0F: #CC88AA;
+  --base0F-rgb: 204, 136, 170;
+  --base0D-h: 211;
+  --base0D-s: 50%;
+  --base0D-l: 66%;
+  --base0D-light: #99c2ee;
+  --base0A-alpha: rgba(234, 198, 122, 0.3);
+  --base02-alpha: rgba(71, 68, 63, 0.6);
 }
 
 .base16-lime {
