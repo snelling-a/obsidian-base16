@@ -7,7 +7,7 @@
     "url": "https://github.com/snelling-a/obsidian-base16/issues"
   },
   "dependencies": {
-    "js-yaml": "4.1.1"
+    "js-yaml": "4.2.0"
   },
   "description": "A Base16 theme for Obsidian. 200+ color schemes with automatic dark/light mode switching. Powered by tinted-theming.",
   "funding": {
