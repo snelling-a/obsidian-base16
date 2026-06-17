@@ -77,6 +77,12 @@ settings:
         value: base16-blueforest
       - label: "Blueish"
         value: base16-blueish
+      - label: "boo-shnickle"
+        value: base16-boo-shnickle
+      - label: "Bosque"
+        value: base16-bosque
+      - label: "Brasa"
+        value: base16-brasa
       - label: "Brewer"
         value: base16-brewer
       - label: "Bright"
@@ -85,6 +91,8 @@ settings:
         value: base16-brogrammer
       - label: "Brush Trees"
         value: base16-brushtrees
+      - label: "Cacao"
+        value: base16-cacao
       - label: "caroline"
         value: base16-caroline
       - label: "Catppuccin Frappe"
@@ -311,6 +319,8 @@ settings:
         value: base16-mellow-purple
       - label: "Mexico"
         value: base16-mexico
+      - label: "Mezcal"
+        value: base16-mezcal
       - label: "Mocha"
         value: base16-mocha
       - label: "Monokai"
@@ -321,6 +331,8 @@ settings:
         value: base16-mountain
       - label: "Nebula"
         value: base16-nebula
+      - label: "Noche"
+        value: base16-noche
       - label: "Nord"
         value: base16-nord
       - label: "Nova"
@@ -329,6 +341,8 @@ settings:
         value: base16-ocean
       - label: "OceanicNext"
         value: base16-oceanicnext
+      - label: "Ocote"
+        value: base16-ocote
       - label: "One"
         value: base16-one
       - label: "OneDark"
@@ -339,6 +353,8 @@ settings:
         value: base16-oxocarbon
       - label: "pandora"
         value: base16-pandora
+      - label: "Papel"
+        value: base16-papel
       - label: "PaperColor"
         value: base16-papercolor
       - label: "Paraiso"
@@ -451,6 +467,8 @@ settings:
         value: base16-tender
       - label: "Terracotta"
         value: base16-terracotta
+      - label: "Tinta"
+        value: base16-tinta
       - label: "Tokyo City"
         value: base16-tokyo-city
       - label: "Tokyo City Terminal"
@@ -2570,6 +2588,170 @@ settings:
   --base02-alpha: rgba(70, 41, 10, 0.6);
 }
 
+.theme-dark.base16-boo-shnickle {
+  --base00: #191914;
+  --base00-rgb: 25, 25, 20;
+  --base01: #3a3a2e;
+  --base01-rgb: 58, 58, 46;
+  --base02: #5b5b49;
+  --base02-rgb: 91, 91, 73;
+  --base03: #7c7c63;
+  --base03-rgb: 124, 124, 99;
+  --base04: #9c9c7d;
+  --base04-rgb: 156, 156, 125;
+  --base05: #bdbd97;
+  --base05-rgb: 189, 189, 151;
+  --base06: #dedeb2;
+  --base06-rgb: 222, 222, 178;
+  --base07: #ffffcc;
+  --base07-rgb: 255, 255, 204;
+  --base08: #ffbfa5;
+  --base08-rgb: 255, 191, 165;
+  --base09: #ffdc99;
+  --base09-rgb: 255, 220, 153;
+  --base0A: #fff299;
+  --base0A-rgb: 255, 242, 153;
+  --base0B: #e7ff99;
+  --base0B-rgb: 231, 255, 153;
+  --base0C: #bfffc5;
+  --base0C-rgb: 191, 255, 197;
+  --base0D: #bfbfd9;
+  --base0D-rgb: 191, 191, 217;
+  --base0E: #f2bfd9;
+  --base0E-rgb: 242, 191, 217;
+  --base0F: #e5d6a6;
+  --base0F-rgb: 229, 214, 166;
+  --base0D-h: 240;
+  --base0D-s: 25%;
+  --base0D-l: 80%;
+  --base0D-light: #d9d9f3;
+  --base0A-alpha: rgba(255, 242, 153, 0.3);
+  --base02-alpha: rgba(91, 91, 73, 0.6);
+}
+
+.theme-light.base16-boo-shnickle {
+  --base00: #ffffcc;
+  --base00-rgb: 255, 255, 204;
+  --base01: #dedeb2;
+  --base01-rgb: 222, 222, 178;
+  --base02: #bdbd97;
+  --base02-rgb: 189, 189, 151;
+  --base03: #9c9c7d;
+  --base03-rgb: 156, 156, 125;
+  --base04: #7c7c63;
+  --base04-rgb: 124, 124, 99;
+  --base05: #5b5b49;
+  --base05-rgb: 91, 91, 73;
+  --base06: #3a3a2e;
+  --base06-rgb: 58, 58, 46;
+  --base07: #191914;
+  --base07-rgb: 25, 25, 20;
+  --base08: #ffbfa5;
+  --base08-rgb: 255, 191, 165;
+  --base09: #ffdc99;
+  --base09-rgb: 255, 220, 153;
+  --base0A: #fff299;
+  --base0A-rgb: 255, 242, 153;
+  --base0B: #e7ff99;
+  --base0B-rgb: 231, 255, 153;
+  --base0C: #bfffc5;
+  --base0C-rgb: 191, 255, 197;
+  --base0D: #bfbfd9;
+  --base0D-rgb: 191, 191, 217;
+  --base0E: #f2bfd9;
+  --base0E-rgb: 242, 191, 217;
+  --base0F: #e5d6a6;
+  --base0F-rgb: 229, 214, 166;
+  --base0D-h: 240;
+  --base0D-s: 25%;
+  --base0D-l: 80%;
+  --base0D-light: #d9d9f3;
+  --base0A-alpha: rgba(255, 242, 153, 0.3);
+  --base02-alpha: rgba(189, 189, 151, 0.6);
+}
+
+.base16-bosque {
+  --base00: #0E1410;
+  --base00-rgb: 14, 20, 16;
+  --base01: #16211A;
+  --base01-rgb: 22, 33, 26;
+  --base02: #1E3023;
+  --base02-rgb: 30, 48, 35;
+  --base03: #5C6E5E;
+  --base03-rgb: 92, 110, 94;
+  --base04: #96AA98;
+  --base04-rgb: 150, 170, 152;
+  --base05: #CFE5D2;
+  --base05-rgb: 207, 229, 210;
+  --base06: #DAEBDA;
+  --base06-rgb: 218, 235, 218;
+  --base07: #E4F0E2;
+  --base07-rgb: 228, 240, 226;
+  --base08: #E2706A;
+  --base08-rgb: 226, 112, 106;
+  --base09: #7DC97A;
+  --base09-rgb: 125, 201, 122;
+  --base0A: #C8B84A;
+  --base0A-rgb: 200, 184, 74;
+  --base0B: #6FC56E;
+  --base0B-rgb: 111, 197, 110;
+  --base0C: #5FD0B8;
+  --base0C-rgb: 95, 208, 184;
+  --base0D: #6DAE9E;
+  --base0D-rgb: 109, 174, 158;
+  --base0E: #B894D0;
+  --base0E-rgb: 184, 148, 208;
+  --base0F: #35503E;
+  --base0F-rgb: 53, 80, 62;
+  --base0D-h: 165;
+  --base0D-s: 29%;
+  --base0D-l: 55%;
+  --base0D-light: #87c8b8;
+  --base0A-alpha: rgba(200, 184, 74, 0.3);
+  --base02-alpha: rgba(30, 48, 35, 0.6);
+}
+
+.base16-brasa {
+  --base00: #1A0F0A;
+  --base00-rgb: 26, 15, 10;
+  --base01: #2B1C14;
+  --base01-rgb: 43, 28, 20;
+  --base02: #45261A;
+  --base02-rgb: 69, 38, 26;
+  --base03: #7A6150;
+  --base03-rgb: 122, 97, 80;
+  --base04: #B59D88;
+  --base04-rgb: 181, 157, 136;
+  --base05: #F0D8C0;
+  --base05-rgb: 240, 216, 192;
+  --base06: #F6E1CC;
+  --base06-rgb: 246, 225, 204;
+  --base07: #FBEAD8;
+  --base07-rgb: 251, 234, 216;
+  --base08: #F2685A;
+  --base08-rgb: 242, 104, 90;
+  --base09: #FF7A4D;
+  --base09-rgb: 255, 122, 77;
+  --base0A: #F0B23A;
+  --base0A-rgb: 240, 178, 58;
+  --base0B: #B8C24A;
+  --base0B-rgb: 184, 194, 74;
+  --base0C: #6BC8B8;
+  --base0C-rgb: 107, 200, 184;
+  --base0D: #9AA6E0;
+  --base0D-rgb: 154, 166, 224;
+  --base0E: #E68AA2;
+  --base0E-rgb: 230, 138, 162;
+  --base0F: #5A3A28;
+  --base0F-rgb: 90, 58, 40;
+  --base0D-h: 230;
+  --base0D-s: 53%;
+  --base0D-l: 74%;
+  --base0D-light: #b4c0fa;
+  --base0A-alpha: rgba(240, 178, 58, 0.3);
+  --base02-alpha: rgba(69, 38, 26, 0.6);
+}
+
 .base16-brewer {
   --base00: #0c0d0e;
   --base00-rgb: 12, 13, 14;
@@ -2773,6 +2955,47 @@ settings:
   --base0D-light: #a0a6cd;
   --base0A-alpha: rgba(170, 179, 134, 0.3);
   --base02-alpha: rgba(176, 197, 200, 0.6);
+}
+
+.base16-cacao {
+  --base00: #160F0C;
+  --base00-rgb: 22, 15, 12;
+  --base01: #241913;
+  --base01-rgb: 36, 25, 19;
+  --base02: #3A281E;
+  --base02-rgb: 58, 40, 30;
+  --base03: #766052;
+  --base03-rgb: 118, 96, 82;
+  --base04: #AF9B8B;
+  --base04-rgb: 175, 155, 139;
+  --base05: #E8D6C4;
+  --base05-rgb: 232, 214, 196;
+  --base06: #EEDECD;
+  --base06-rgb: 238, 222, 205;
+  --base07: #F4E6D6;
+  --base07-rgb: 244, 230, 214;
+  --base08: #E0705C;
+  --base08-rgb: 224, 112, 92;
+  --base09: #C77B4A;
+  --base09-rgb: 199, 123, 74;
+  --base0A: #E8A84A;
+  --base0A-rgb: 232, 168, 74;
+  --base0B: #9AC97A;
+  --base0B-rgb: 154, 201, 122;
+  --base0C: #74C8B0;
+  --base0C-rgb: 116, 200, 176;
+  --base0D: #A89AD0;
+  --base0D-rgb: 168, 154, 208;
+  --base0E: #CE8AB0;
+  --base0E-rgb: 206, 138, 176;
+  --base0F: #4E382A;
+  --base0F-rgb: 78, 56, 42;
+  --base0D-h: 256;
+  --base0D-s: 36%;
+  --base0D-l: 71%;
+  --base0D-light: #c2b4ea;
+  --base0A-alpha: rgba(232, 168, 74, 0.3);
+  --base02-alpha: rgba(58, 40, 30, 0.6);
 }
 
 .base16-caroline {
@@ -8228,6 +8451,47 @@ settings:
   --base02-alpha: rgba(216, 216, 216, 0.6);
 }
 
+.base16-mezcal {
+  --base00: #13110E;
+  --base00-rgb: 19, 17, 14;
+  --base01: #221F14;
+  --base01-rgb: 34, 31, 20;
+  --base02: #36301E;
+  --base02-rgb: 54, 48, 30;
+  --base03: #6E6450;
+  --base03-rgb: 110, 100, 80;
+  --base04: #A79E8C;
+  --base04-rgb: 167, 158, 140;
+  --base05: #E0D8C8;
+  --base05-rgb: 224, 216, 200;
+  --base06: #E9E1CF;
+  --base06-rgb: 233, 225, 207;
+  --base07: #F2EAD6;
+  --base07-rgb: 242, 234, 214;
+  --base08: #DA6E54;
+  --base08-rgb: 218, 110, 84;
+  --base09: #D9A441;
+  --base09-rgb: 217, 164, 65;
+  --base0A: #D9A441;
+  --base0A-rgb: 217, 164, 65;
+  --base0B: #A8B84A;
+  --base0B-rgb: 168, 184, 74;
+  --base0C: #6FC8AE;
+  --base0C-rgb: 111, 200, 174;
+  --base0D: #8AA6C0;
+  --base0D-rgb: 138, 166, 192;
+  --base0E: #C28AA8;
+  --base0E-rgb: 194, 138, 168;
+  --base0F: #4E462C;
+  --base0F-rgb: 78, 70, 44;
+  --base0D-h: 209;
+  --base0D-s: 30%;
+  --base0D-l: 65%;
+  --base0D-light: #a4c0da;
+  --base0A-alpha: rgba(217, 164, 65, 0.3);
+  --base02-alpha: rgba(54, 48, 30, 0.6);
+}
+
 .base16-mocha {
   --base00: #3B3228;
   --base00-rgb: 59, 50, 40;
@@ -8433,6 +8697,47 @@ settings:
   --base02-alpha: rgba(90, 131, 128, 0.6);
 }
 
+.base16-noche {
+  --base00: #0C0E16;
+  --base00-rgb: 12, 14, 22;
+  --base01: #181C2C;
+  --base01-rgb: 24, 28, 44;
+  --base02: #232A40;
+  --base02-rgb: 35, 42, 64;
+  --base03: #5A6178;
+  --base03-rgb: 90, 97, 120;
+  --base04: #939BB2;
+  --base04-rgb: 147, 155, 178;
+  --base05: #CBD4EC;
+  --base05-rgb: 203, 212, 236;
+  --base06: #D9E0F3;
+  --base06-rgb: 217, 224, 243;
+  --base07: #E6ECFA;
+  --base07-rgb: 230, 236, 250;
+  --base08: #E2727E;
+  --base08-rgb: 226, 114, 126;
+  --base09: #82A6E0;
+  --base09-rgb: 130, 166, 224;
+  --base0A: #D8C062;
+  --base0A-rgb: 216, 192, 98;
+  --base0B: #7CC596;
+  --base0B-rgb: 124, 197, 150;
+  --base0C: #6DD8D0;
+  --base0C-rgb: 109, 216, 208;
+  --base0D: #7AA0E8;
+  --base0D-rgb: 122, 160, 232;
+  --base0E: #B79AE0;
+  --base0E-rgb: 183, 154, 224;
+  --base0F: #3A4260;
+  --base0F-rgb: 58, 66, 96;
+  --base0D-h: 219;
+  --base0D-s: 71%;
+  --base0D-l: 69%;
+  --base0D-light: #94baff;
+  --base0A-alpha: rgba(216, 192, 98, 0.3);
+  --base02-alpha: rgba(35, 42, 64, 0.6);
+}
+
 .theme-dark.base16-nord {
   --base00: #2E3440;
   --base00-rgb: 46, 52, 64;
@@ -8636,6 +8941,47 @@ settings:
   --base0D-light: #80b3e6;
   --base0A-alpha: rgba(250, 200, 99, 0.3);
   --base02-alpha: rgba(79, 91, 102, 0.6);
+}
+
+.base16-ocote {
+  --base00: #14100C;
+  --base00-rgb: 20, 16, 12;
+  --base01: #211B13;
+  --base01-rgb: 33, 27, 19;
+  --base02: #3A2E1C;
+  --base02-rgb: 58, 46, 28;
+  --base03: #6B6253;
+  --base03-rgb: 107, 98, 83;
+  --base04: #A99F8D;
+  --base04-rgb: 169, 159, 141;
+  --base05: #E7DCC6;
+  --base05-rgb: 231, 220, 198;
+  --base06: #F1E9D9;
+  --base06-rgb: 241, 233, 217;
+  --base07: #FAF6EC;
+  --base07-rgb: 250, 246, 236;
+  --base08: #E8635A;
+  --base08-rgb: 232, 99, 90;
+  --base09: #E8843A;
+  --base09-rgb: 232, 132, 58;
+  --base0A: #E8B43A;
+  --base0A-rgb: 232, 180, 58;
+  --base0B: #7DC97A;
+  --base0B-rgb: 125, 201, 122;
+  --base0C: #6DD8C8;
+  --base0C-rgb: 109, 216, 200;
+  --base0D: #82A6E0;
+  --base0D-rgb: 130, 166, 224;
+  --base0E: #C58AE0;
+  --base0E-rgb: 197, 138, 224;
+  --base0F: #4A3E2C;
+  --base0F-rgb: 74, 62, 44;
+  --base0D-h: 217;
+  --base0D-s: 60%;
+  --base0D-l: 69%;
+  --base0D-light: #9cc0fa;
+  --base0A-alpha: rgba(232, 180, 58, 0.3);
+  --base02-alpha: rgba(58, 46, 28, 0.6);
 }
 
 .base16-one {
@@ -8882,6 +9228,47 @@ settings:
   --base0D-light: #1a9a9a;
   --base0A-alpha: rgba(255, 204, 0, 0.3);
   --base02-alpha: rgba(71, 34, 52, 0.6);
+}
+
+.base16-papel {
+  --base00: #F5EFE2;
+  --base00-rgb: 245, 239, 226;
+  --base01: #8E8576;
+  --base01-rgb: 142, 133, 118;
+  --base02: #E0D0AC;
+  --base02-rgb: 224, 208, 172;
+  --base03: #9A8C76;
+  --base03-rgb: 154, 140, 118;
+  --base04: #6A5D4B;
+  --base04-rgb: 106, 93, 75;
+  --base05: #3A2E20;
+  --base05-rgb: 58, 46, 32;
+  --base06: #958B7C;
+  --base06-rgb: 149, 139, 124;
+  --base07: #EFE8D8;
+  --base07-rgb: 239, 232, 216;
+  --base08: #C0392B;
+  --base08-rgb: 192, 57, 43;
+  --base09: #C25C1F;
+  --base09-rgb: 194, 92, 31;
+  --base0A: #A8761A;
+  --base0A-rgb: 168, 118, 26;
+  --base0B: #5E7A28;
+  --base0B-rgb: 94, 122, 40;
+  --base0C: #2A8A7A;
+  --base0C-rgb: 42, 138, 122;
+  --base0D: #2C6CA0;
+  --base0D-rgb: 44, 108, 160;
+  --base0E: #9B4D8E;
+  --base0E-rgb: 155, 77, 142;
+  --base0F: #6E6353;
+  --base0F-rgb: 110, 99, 83;
+  --base0D-h: 207;
+  --base0D-s: 57%;
+  --base0D-l: 40%;
+  --base0D-light: #4686ba;
+  --base0A-alpha: rgba(168, 118, 26, 0.3);
+  --base02-alpha: rgba(224, 208, 172, 0.6);
 }
 
 .theme-dark.base16-papercolor {
@@ -11711,6 +12098,47 @@ settings:
   --base0D-light: #7c6f8e;
   --base0A-alpha: rgba(206, 148, 62, 0.3);
   --base02-alpha: rgba(208, 193, 187, 0.6);
+}
+
+.base16-tinta {
+  --base00: #101012;
+  --base00-rgb: 16, 16, 18;
+  --base01: #202023;
+  --base01-rgb: 32, 32, 35;
+  --base02: #2C2C30;
+  --base02-rgb: 44, 44, 48;
+  --base03: #62626A;
+  --base03-rgb: 98, 98, 106;
+  --base04: #9D9C9D;
+  --base04-rgb: 157, 156, 157;
+  --base05: #D8D6D0;
+  --base05-rgb: 216, 214, 208;
+  --base06: #E3E1DB;
+  --base06-rgb: 227, 225, 219;
+  --base07: #EEECE6;
+  --base07-rgb: 238, 236, 230;
+  --base08: #D0726A;
+  --base08-rgb: 208, 114, 106;
+  --base09: #E8843A;
+  --base09-rgb: 232, 132, 58;
+  --base0A: #C8B86A;
+  --base0A-rgb: 200, 184, 106;
+  --base0B: #9AA890;
+  --base0B-rgb: 154, 168, 144;
+  --base0C: #80B8B4;
+  --base0C-rgb: 128, 184, 180;
+  --base0D: #8A9AB0;
+  --base0D-rgb: 138, 154, 176;
+  --base0E: #B0A0B8;
+  --base0E-rgb: 176, 160, 184;
+  --base0F: #4A4A50;
+  --base0F-rgb: 74, 74, 80;
+  --base0D-h: 215;
+  --base0D-s: 19%;
+  --base0D-l: 62%;
+  --base0D-light: #a4b4ca;
+  --base0A-alpha: rgba(200, 184, 106, 0.3);
+  --base02-alpha: rgba(44, 44, 48, 0.6);
 }
 
 .theme-dark.base16-tokyo-city {
