@@ -213,8 +213,18 @@ settings:
         value: base16-fruit-soda
       - label: "Gigavolt"
         value: base16-gigavolt
+      - label: "Github Dark Colorblind"
+        value: base16-github-dark-colorblind
+      - label: "Github Dark Dimmed"
+        value: base16-github-dark-dimmed
+      - label: "Github Dark High Contrast"
+        value: base16-github-dark-high-contrast
       - label: "Github"
         value: base16-github
+      - label: "Github Light Colorblind"
+        value: base16-github-light-colorblind
+      - label: "Github Light High Contrast"
+        value: base16-github-light-high-contrast
       - label: "Google"
         value: base16-google
       - label: "Gotham"
@@ -5827,11 +5837,11 @@ settings:
   --base02-alpha: rgba(90, 87, 110, 0.6);
 }
 
-.theme-dark.base16-github {
-  --base00: #161b22;
-  --base00-rgb: 22, 27, 34;
-  --base01: #30363d;
-  --base01-rgb: 48, 54, 61;
+.base16-github-dark-colorblind {
+  --base00: #0d1117;
+  --base00-rgb: 13, 17, 23;
+  --base01: #161b22;
+  --base01-rgb: 22, 27, 34;
   --base02: #484f58;
   --base02-rgb: 72, 79, 88;
   --base03: #6e7681;
@@ -5844,35 +5854,158 @@ settings:
   --base06-rgb: 240, 246, 252;
   --base07: #ffffff;
   --base07-rgb: 255, 255, 255;
-  --base08: #f85149;
-  --base08-rgb: 248, 81, 73;
-  --base09: #db6d28;
-  --base09-rgb: 219, 109, 40;
+  --base08: #fdac54;
+  --base08-rgb: 253, 172, 84;
+  --base09: #79c0ff;
+  --base09-rgb: 121, 192, 255;
   --base0A: #bb8009;
   --base0A-rgb: 187, 128, 9;
-  --base0B: #2ea043;
-  --base0B-rgb: 46, 160, 67;
-  --base0C: #2A9D9A;
-  --base0C-rgb: 42, 157, 154;
-  --base0D: #388bfd;
-  --base0D-rgb: 56, 139, 253;
-  --base0E: #a371f7;
-  --base0E-rgb: 163, 113, 247;
-  --base0F: #3D2F00;
-  --base0F-rgb: 61, 47, 0;
-  --base0D-h: 215;
-  --base0D-s: 98%;
-  --base0D-l: 61%;
-  --base0D-light: #52a5ff;
+  --base0B: #a5d6ff;
+  --base0B-rgb: 165, 214, 255;
+  --base0C: #a5d6ff;
+  --base0C-rgb: 165, 214, 255;
+  --base0D: #d2a8ff;
+  --base0D-rgb: 210, 168, 255;
+  --base0E: #ec8e2c;
+  --base0E-rgb: 236, 142, 44;
+  --base0F: #fdac54;
+  --base0F-rgb: 253, 172, 84;
+  --base0D-h: 269;
+  --base0D-s: 100%;
+  --base0D-l: 83%;
+  --base0D-light: #ecc2ff;
+  --base0A-alpha: rgba(187, 128, 9, 0.3);
+  --base02-alpha: rgba(72, 79, 88, 0.6);
+}
+
+.base16-github-dark-dimmed {
+  --base00: #22272e;
+  --base00-rgb: 34, 39, 46;
+  --base01: #2d333b;
+  --base01-rgb: 45, 51, 59;
+  --base02: #545d68;
+  --base02-rgb: 84, 93, 104;
+  --base03: #636e7b;
+  --base03-rgb: 99, 110, 123;
+  --base04: #768390;
+  --base04-rgb: 118, 131, 144;
+  --base05: #adbac7;
+  --base05-rgb: 173, 186, 199;
+  --base06: #cdd9e5;
+  --base06-rgb: 205, 217, 229;
+  --base07: #ffffff;
+  --base07-rgb: 255, 255, 255;
+  --base08: #f69d50;
+  --base08-rgb: 246, 157, 80;
+  --base09: #6cb6ff;
+  --base09-rgb: 108, 182, 255;
+  --base0A: #ae7c14;
+  --base0A-rgb: 174, 124, 20;
+  --base0B: #96d0ff;
+  --base0B-rgb: 150, 208, 255;
+  --base0C: #8ddb8c;
+  --base0C-rgb: 141, 219, 140;
+  --base0D: #dcbdfb;
+  --base0D-rgb: 220, 189, 251;
+  --base0E: #f47067;
+  --base0E-rgb: 244, 112, 103;
+  --base0F: #ff938a;
+  --base0F-rgb: 255, 147, 138;
+  --base0D-h: 270;
+  --base0D-s: 89%;
+  --base0D-l: 86%;
+  --base0D-light: #f6d7ff;
+  --base0A-alpha: rgba(174, 124, 20, 0.3);
+  --base02-alpha: rgba(84, 93, 104, 0.6);
+}
+
+.base16-github-dark-high-contrast {
+  --base00: #0a0c10;
+  --base00-rgb: 10, 12, 16;
+  --base01: #272b33;
+  --base01-rgb: 39, 43, 51;
+  --base02: #7a828e;
+  --base02-rgb: 122, 130, 142;
+  --base03: #9ea7b3;
+  --base03-rgb: 158, 167, 179;
+  --base04: #bdc4cc;
+  --base04-rgb: 189, 196, 204;
+  --base05: #f0f3f6;
+  --base05-rgb: 240, 243, 246;
+  --base06: #ffffff;
+  --base06-rgb: 255, 255, 255;
+  --base07: #ffffff;
+  --base07-rgb: 255, 255, 255;
+  --base08: #ffb757;
+  --base08-rgb: 255, 183, 87;
+  --base09: #91cbff;
+  --base09-rgb: 145, 203, 255;
+  --base0A: #e09b13;
+  --base0A-rgb: 224, 155, 19;
+  --base0B: #addcff;
+  --base0B-rgb: 173, 220, 255;
+  --base0C: #72f088;
+  --base0C-rgb: 114, 240, 136;
+  --base0D: #dbb7ff;
+  --base0D-rgb: 219, 183, 255;
+  --base0E: #ff9492;
+  --base0E-rgb: 255, 148, 146;
+  --base0F: #ffb1af;
+  --base0F-rgb: 255, 177, 175;
+  --base0D-h: 270;
+  --base0D-s: 100%;
+  --base0D-l: 86%;
+  --base0D-light: #f5d1ff;
+  --base0A-alpha: rgba(224, 155, 19, 0.3);
+  --base02-alpha: rgba(122, 130, 142, 0.6);
+}
+
+.theme-dark.base16-github {
+  --base00: #0d1117;
+  --base00-rgb: 13, 17, 23;
+  --base01: #161b22;
+  --base01-rgb: 22, 27, 34;
+  --base02: #484f58;
+  --base02-rgb: 72, 79, 88;
+  --base03: #6e7681;
+  --base03-rgb: 110, 118, 129;
+  --base04: #8b949e;
+  --base04-rgb: 139, 148, 158;
+  --base05: #c9d1d9;
+  --base05-rgb: 201, 209, 217;
+  --base06: #f0f6fc;
+  --base06-rgb: 240, 246, 252;
+  --base07: #ffffff;
+  --base07-rgb: 255, 255, 255;
+  --base08: #ffa657;
+  --base08-rgb: 255, 166, 87;
+  --base09: #79c0ff;
+  --base09-rgb: 121, 192, 255;
+  --base0A: #bb8009;
+  --base0A-rgb: 187, 128, 9;
+  --base0B: #a5d6ff;
+  --base0B-rgb: 165, 214, 255;
+  --base0C: #7ee787;
+  --base0C-rgb: 126, 231, 135;
+  --base0D: #d2a8ff;
+  --base0D-rgb: 210, 168, 255;
+  --base0E: #ff7b72;
+  --base0E-rgb: 255, 123, 114;
+  --base0F: #ffa198;
+  --base0F-rgb: 255, 161, 152;
+  --base0D-h: 269;
+  --base0D-s: 100%;
+  --base0D-l: 83%;
+  --base0D-light: #ecc2ff;
   --base0A-alpha: rgba(187, 128, 9, 0.3);
   --base02-alpha: rgba(72, 79, 88, 0.6);
 }
 
 .theme-light.base16-github {
-  --base00: #eaeef2;
-  --base00-rgb: 234, 238, 242;
-  --base01: #d0d7de;
-  --base01-rgb: 208, 215, 222;
+  --base00: #ffffff;
+  --base00-rgb: 255, 255, 255;
+  --base01: #f6f8fa;
+  --base01-rgb: 246, 248, 250;
   --base02: #afb8c1;
   --base02-rgb: 175, 184, 193;
   --base03: #8c959f;
@@ -5885,28 +6018,110 @@ settings:
   --base06-rgb: 50, 56, 63;
   --base07: #1f2328;
   --base07-rgb: 31, 35, 40;
-  --base08: #fa4549;
-  --base08-rgb: 250, 69, 73;
-  --base09: #e16f24;
-  --base09-rgb: 225, 111, 36;
+  --base08: #953800;
+  --base08-rgb: 149, 56, 0;
+  --base09: #0550ae;
+  --base09-rgb: 5, 80, 174;
   --base0A: #bf8700;
   --base0A-rgb: 191, 135, 0;
-  --base0B: #2da44e;
-  --base0B-rgb: 45, 164, 78;
-  --base0C: #339D9B;
-  --base0C-rgb: 51, 157, 155;
-  --base0D: #218bff;
-  --base0D-rgb: 33, 139, 255;
-  --base0E: #a475f9;
-  --base0E-rgb: 164, 117, 249;
-  --base0F: #4d2d00;
-  --base0F-rgb: 77, 45, 0;
-  --base0D-h: 211;
-  --base0D-s: 100%;
-  --base0D-l: 56%;
-  --base0D-light: #3ba5ff;
+  --base0B: #0a3069;
+  --base0B-rgb: 10, 48, 105;
+  --base0C: #116329;
+  --base0C-rgb: 17, 99, 41;
+  --base0D: #8250df;
+  --base0D-rgb: 130, 80, 223;
+  --base0E: #cf222e;
+  --base0E-rgb: 207, 34, 46;
+  --base0F: #82071e;
+  --base0F-rgb: 130, 7, 30;
+  --base0D-h: 261;
+  --base0D-s: 69%;
+  --base0D-l: 59%;
+  --base0D-light: #9c6af9;
   --base0A-alpha: rgba(191, 135, 0, 0.3);
   --base02-alpha: rgba(175, 184, 193, 0.6);
+}
+
+.base16-github-light-colorblind {
+  --base00: #ffffff;
+  --base00-rgb: 255, 255, 255;
+  --base01: #f6f8fa;
+  --base01-rgb: 246, 248, 250;
+  --base02: #afb8c1;
+  --base02-rgb: 175, 184, 193;
+  --base03: #8c959f;
+  --base03-rgb: 140, 149, 159;
+  --base04: #6e7781;
+  --base04-rgb: 110, 119, 129;
+  --base05: #424a53;
+  --base05-rgb: 66, 74, 83;
+  --base06: #32383f;
+  --base06-rgb: 50, 56, 63;
+  --base07: #24292f;
+  --base07-rgb: 36, 41, 47;
+  --base08: #8a4600;
+  --base08-rgb: 138, 70, 0;
+  --base09: #0550ae;
+  --base09-rgb: 5, 80, 174;
+  --base0A: #bf8700;
+  --base0A-rgb: 191, 135, 0;
+  --base0B: #0a3069;
+  --base0B-rgb: 10, 48, 105;
+  --base0C: #0550ae;
+  --base0C-rgb: 5, 80, 174;
+  --base0D: #8250df;
+  --base0D-rgb: 130, 80, 223;
+  --base0E: #b35900;
+  --base0E-rgb: 179, 89, 0;
+  --base0F: #6f3800;
+  --base0F-rgb: 111, 56, 0;
+  --base0D-h: 261;
+  --base0D-s: 69%;
+  --base0D-l: 59%;
+  --base0D-light: #9c6af9;
+  --base0A-alpha: rgba(191, 135, 0, 0.3);
+  --base02-alpha: rgba(175, 184, 193, 0.6);
+}
+
+.base16-github-light-high-contrast {
+  --base00: #ffffff;
+  --base00-rgb: 255, 255, 255;
+  --base01: #e7ecf0;
+  --base01-rgb: 231, 236, 240;
+  --base02: #acb6c0;
+  --base02-rgb: 172, 182, 192;
+  --base03: #88929d;
+  --base03-rgb: 136, 146, 157;
+  --base04: #66707b;
+  --base04-rgb: 102, 112, 123;
+  --base05: #343b43;
+  --base05-rgb: 52, 59, 67;
+  --base06: #20252c;
+  --base06-rgb: 32, 37, 44;
+  --base07: #0e1116;
+  --base07-rgb: 14, 17, 22;
+  --base08: #702c00;
+  --base08-rgb: 112, 44, 0;
+  --base09: #023b95;
+  --base09-rgb: 2, 59, 149;
+  --base0A: #956400;
+  --base0A-rgb: 149, 100, 0;
+  --base0B: #032563;
+  --base0B-rgb: 3, 37, 99;
+  --base0C: #024c1a;
+  --base0C-rgb: 2, 76, 26;
+  --base0D: #622cbc;
+  --base0D-rgb: 98, 44, 188;
+  --base0E: #a0111f;
+  --base0E-rgb: 160, 17, 31;
+  --base0F: #6e011a;
+  --base0F-rgb: 110, 1, 26;
+  --base0D-h: 263;
+  --base0D-s: 62%;
+  --base0D-l: 45%;
+  --base0D-light: #7c46d6;
+  --base0A-alpha: rgba(149, 100, 0, 0.3);
+  --base02-alpha: rgba(172, 182, 192, 0.6);
 }
 
 .theme-dark.base16-google {
