@@ -291,6 +291,8 @@ settings:
         value: base16-isotope
       - label: "Jabuti"
         value: base16-jabuti
+      - label: "Jellybeans"
+        value: base16-jellybeans
       - label: "Kanagawa Dragon"
         value: base16-kanagawa-dragon
       - label: "Kanagawa"
@@ -7844,6 +7846,47 @@ settings:
   --base0D-light: #59e0f8;
   --base0A-alpha: rgba(225, 198, 151, 0.3);
   --base02-alpha: rgba(60, 62, 81, 0.6);
+}
+
+.base16-jellybeans {
+  --base00: #121212;
+  --base00-rgb: 18, 18, 18;
+  --base01: #929292;
+  --base01-rgb: 146, 146, 146;
+  --base02: #bdbdbd;
+  --base02-rgb: 189, 189, 189;
+  --base03: #c5c5c5;
+  --base03-rgb: 197, 197, 197;
+  --base04: #cdcdcd;
+  --base04-rgb: 205, 205, 205;
+  --base05: #d5d5d5;
+  --base05-rgb: 213, 213, 213;
+  --base06: #dedede;
+  --base06-rgb: 222, 222, 222;
+  --base07: #ffffff;
+  --base07-rgb: 255, 255, 255;
+  --base08: #ffa1a1;
+  --base08-rgb: 255, 161, 161;
+  --base09: #ffba7b;
+  --base09-rgb: 255, 186, 123;
+  --base0A: #ffdca0;
+  --base0A-rgb: 255, 220, 160;
+  --base0B: #bddeab;
+  --base0B-rgb: 189, 222, 171;
+  --base0C: #1ab2a8;
+  --base0C-rgb: 26, 178, 168;
+  --base0D: #b1d8f6;
+  --base0D-rgb: 177, 216, 246;
+  --base0E: #fbdaff;
+  --base0E-rgb: 251, 218, 255;
+  --base0F: #713939;
+  --base0F-rgb: 113, 57, 57;
+  --base0D-h: 206;
+  --base0D-s: 79%;
+  --base0D-l: 83%;
+  --base0D-light: #cbf2ff;
+  --base0A-alpha: rgba(255, 220, 160, 0.3);
+  --base02-alpha: rgba(189, 189, 189, 0.6);
 }
 
 .base16-kanagawa-dragon {
