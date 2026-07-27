@@ -17,6 +17,8 @@ settings:
         value: base16-apathy
       - label: "Apprentice"
         value: base16-apprentice
+      - label: "Arroz con Dulce"
+        value: base16-arroz-con-dulce
       - label: "Ascendancy"
         value: base16-ascendancy
       - label: "Ashes"
@@ -103,6 +105,8 @@ settings:
         value: base16-catppuccin-macchiato
       - label: "Catppuccin Mocha"
         value: base16-catppuccin-mocha
+      - label: "Cerulean Signal"
+        value: base16-cerulean-signal
       - label: "Chalk"
         value: base16-chalk
       - label: "Charcoal"
@@ -237,6 +241,8 @@ settings:
         value: base16-gruber
       - label: "Gruvbox dark, hard"
         value: base16-gruvbox-dark-hard
+      - label: "Gruvbox Dark Medium (Forest)"
+        value: base16-gruvbox-dark-medium-forest
       - label: "Gruvbox dark, medium"
         value: base16-gruvbox-dark-medium
       - label: "Gruvbox dark, pale"
@@ -305,6 +311,8 @@ settings:
         value: base16-kissa-latte
       - label: "Kissa Macchiato"
         value: base16-kissa-macchiato
+      - label: "Lichen Chartreuse"
+        value: base16-lichen-chartreuse
       - label: "lime"
         value: base16-lime
       - label: "Linux VT"
@@ -917,6 +925,88 @@ settings:
   --base0D-light: #a1a1c9;
   --base0A-alpha: rgba(135, 175, 135, 0.3);
   --base02-alpha: rgba(95, 135, 95, 0.6);
+}
+
+.theme-dark.base16-arroz-con-dulce {
+  --base00: #21140F;
+  --base00-rgb: 33, 20, 15;
+  --base01: #2C1A13;
+  --base01-rgb: 44, 26, 19;
+  --base02: #3B241A;
+  --base02-rgb: 59, 36, 26;
+  --base03: #A98568;
+  --base03-rgb: 169, 133, 104;
+  --base04: #C8A77A;
+  --base04-rgb: 200, 167, 122;
+  --base05: #F2DFC0;
+  --base05-rgb: 242, 223, 192;
+  --base06: #F8EBD3;
+  --base06-rgb: 248, 235, 211;
+  --base07: #FFF8E7;
+  --base07-rgb: 255, 248, 231;
+  --base08: #E07A8A;
+  --base08-rgb: 224, 122, 138;
+  --base09: #E68A4A;
+  --base09-rgb: 230, 138, 74;
+  --base0A: #D9A441;
+  --base0A-rgb: 217, 164, 65;
+  --base0B: #D47A50;
+  --base0B-rgb: 212, 122, 80;
+  --base0C: #D98276;
+  --base0C-rgb: 217, 130, 118;
+  --base0D: #B99AC8;
+  --base0D-rgb: 185, 154, 200;
+  --base0E: #D58AB4;
+  --base0E-rgb: 213, 138, 180;
+  --base0F: #B97755;
+  --base0F-rgb: 185, 119, 85;
+  --base0D-h: 280;
+  --base0D-s: 29%;
+  --base0D-l: 69%;
+  --base0D-light: #d3b4e2;
+  --base0A-alpha: rgba(217, 164, 65, 0.3);
+  --base02-alpha: rgba(59, 36, 26, 0.6);
+}
+
+.theme-light.base16-arroz-con-dulce {
+  --base00: #FFF8E7;
+  --base00-rgb: 255, 248, 231;
+  --base01: #F7EBD3;
+  --base01-rgb: 247, 235, 211;
+  --base02: #EAD6B8;
+  --base02-rgb: 234, 214, 184;
+  --base03: #C8A77A;
+  --base03-rgb: 200, 167, 122;
+  --base04: #765B45;
+  --base04-rgb: 118, 91, 69;
+  --base05: #4A2C20;
+  --base05-rgb: 74, 44, 32;
+  --base06: #321C14;
+  --base06-rgb: 50, 28, 20;
+  --base07: #21110B;
+  --base07-rgb: 33, 17, 11;
+  --base08: #A11D48;
+  --base08-rgb: 161, 29, 72;
+  --base09: #A3470A;
+  --base09-rgb: 163, 71, 10;
+  --base0A: #855500;
+  --base0A-rgb: 133, 85, 0;
+  --base0B: #A2380C;
+  --base0B-rgb: 162, 56, 12;
+  --base0C: #98263E;
+  --base0C-rgb: 152, 38, 62;
+  --base0D: #5940A0;
+  --base0D-rgb: 89, 64, 160;
+  --base0E: #8C1F68;
+  --base0E-rgb: 140, 31, 104;
+  --base0F: #653221;
+  --base0F-rgb: 101, 50, 33;
+  --base0D-h: 256;
+  --base0D-s: 43%;
+  --base0D-l: 44%;
+  --base0D-light: #735aba;
+  --base0A-alpha: rgba(133, 85, 0, 0.3);
+  --base02-alpha: rgba(234, 214, 184, 0.6);
 }
 
 .base16-ascendancy {
@@ -3213,6 +3303,88 @@ settings:
   --base0D-light: #a3ceff;
   --base0A-alpha: rgba(249, 226, 175, 0.3);
   --base02-alpha: rgba(49, 50, 68, 0.6);
+}
+
+.theme-dark.base16-cerulean-signal {
+  --base00: #101722;
+  --base00-rgb: 16, 23, 34;
+  --base01: #131c29;
+  --base01-rgb: 19, 28, 41;
+  --base02: #173a5a;
+  --base02-rgb: 23, 58, 90;
+  --base03: #8fa0b5;
+  --base03-rgb: 143, 160, 181;
+  --base04: #aab8ca;
+  --base04-rgb: 170, 184, 202;
+  --base05: #dce6f2;
+  --base05-rgb: 220, 230, 242;
+  --base06: #f1f6fc;
+  --base06-rgb: 241, 246, 252;
+  --base07: #f7f9fc;
+  --base07-rgb: 247, 249, 252;
+  --base08: #ff8a9a;
+  --base08-rgb: 255, 138, 154;
+  --base09: #f5a35c;
+  --base09-rgb: 245, 163, 92;
+  --base0A: #e2c85f;
+  --base0A-rgb: 226, 200, 95;
+  --base0B: #70e1b0;
+  --base0B-rgb: 112, 225, 176;
+  --base0C: #58d9df;
+  --base0C-rgb: 88, 217, 223;
+  --base0D: #7dd3ff;
+  --base0D-rgb: 125, 211, 255;
+  --base0E: #ff74d4;
+  --base0E-rgb: 255, 116, 212;
+  --base0F: #d59b7d;
+  --base0F-rgb: 213, 155, 125;
+  --base0D-h: 200;
+  --base0D-s: 100%;
+  --base0D-l: 75%;
+  --base0D-light: #97edff;
+  --base0A-alpha: rgba(226, 200, 95, 0.3);
+  --base02-alpha: rgba(23, 58, 90, 0.6);
+}
+
+.theme-light.base16-cerulean-signal {
+  --base00: #f7f9fc;
+  --base00-rgb: 247, 249, 252;
+  --base01: #eef4fb;
+  --base01-rgb: 238, 244, 251;
+  --base02: #dde7f1;
+  --base02-rgb: 221, 231, 241;
+  --base03: #637287;
+  --base03-rgb: 99, 114, 135;
+  --base04: #566579;
+  --base04-rgb: 86, 101, 121;
+  --base05: #232b38;
+  --base05-rgb: 35, 43, 56;
+  --base06: #202b3a;
+  --base06-rgb: 32, 43, 58;
+  --base07: #141d2a;
+  --base07-rgb: 20, 29, 42;
+  --base08: #b4233d;
+  --base08-rgb: 180, 35, 61;
+  --base09: #9a4f00;
+  --base09-rgb: 154, 79, 0;
+  --base0A: #6f6300;
+  --base0A-rgb: 111, 99, 0;
+  --base0B: #17795e;
+  --base0B-rgb: 23, 121, 94;
+  --base0C: #00727e;
+  --base0C-rgb: 0, 114, 126;
+  --base0D: #006fa8;
+  --base0D-rgb: 0, 111, 168;
+  --base0E: #a0007d;
+  --base0E-rgb: 160, 0, 125;
+  --base0F: #7a4e3c;
+  --base0F-rgb: 122, 78, 60;
+  --base0D-h: 200;
+  --base0D-s: 100%;
+  --base0D-l: 33%;
+  --base0D-light: #1a89c2;
+  --base0A-alpha: rgba(111, 99, 0, 0.3);
+  --base02-alpha: rgba(221, 231, 241, 0.6);
 }
 
 .base16-chalk {
@@ -6454,6 +6626,47 @@ settings:
   --base02-alpha: rgba(80, 73, 69, 0.6);
 }
 
+.base16-gruvbox-dark-medium-forest {
+  --base00: #282828;
+  --base00-rgb: 40, 40, 40;
+  --base01: #3c3836;
+  --base01-rgb: 60, 56, 54;
+  --base02: #504945;
+  --base02-rgb: 80, 73, 69;
+  --base03: #665c50;
+  --base03-rgb: 102, 92, 80;
+  --base04: #bdae93;
+  --base04-rgb: 189, 174, 147;
+  --base05: #d5c4a1;
+  --base05-rgb: 213, 196, 161;
+  --base06: #ebdbb2;
+  --base06-rgb: 235, 219, 178;
+  --base07: #fbf1c7;
+  --base07-rgb: 251, 241, 199;
+  --base08: #fb4934;
+  --base08-rgb: 251, 73, 52;
+  --base09: #fe8019;
+  --base09-rgb: 254, 128, 25;
+  --base0A: #fabd2f;
+  --base0A-rgb: 250, 189, 47;
+  --base0B: #b8bb26;
+  --base0B-rgb: 184, 187, 38;
+  --base0C: #5f6c1f;
+  --base0C-rgb: 95, 108, 31;
+  --base0D: #b8bb26;
+  --base0D-rgb: 184, 187, 38;
+  --base0E: #96bda2;
+  --base0E-rgb: 150, 189, 162;
+  --base0F: #d65d0e;
+  --base0F-rgb: 214, 93, 14;
+  --base0D-h: 61;
+  --base0D-s: 66%;
+  --base0D-l: 44%;
+  --base0D-light: #d2d540;
+  --base0A-alpha: rgba(250, 189, 47, 0.3);
+  --base02-alpha: rgba(80, 73, 69, 0.6);
+}
+
 .base16-gruvbox-dark-medium {
   --base00: #282828;
   --base00-rgb: 40, 40, 40;
@@ -8133,6 +8346,88 @@ settings:
   --base0D-light: #99c2ee;
   --base0A-alpha: rgba(234, 198, 122, 0.3);
   --base02-alpha: rgba(71, 68, 63, 0.6);
+}
+
+.theme-dark.base16-lichen-chartreuse {
+  --base00: #151613;
+  --base00-rgb: 21, 22, 19;
+  --base01: #1c1e1a;
+  --base01-rgb: 28, 30, 26;
+  --base02: #3e5123;
+  --base02-rgb: 62, 81, 35;
+  --base03: #899282;
+  --base03-rgb: 137, 146, 130;
+  --base04: #a0a598;
+  --base04-rgb: 160, 165, 152;
+  --base05: #e0e5da;
+  --base05-rgb: 224, 229, 218;
+  --base06: #ecefe7;
+  --base06-rgb: 236, 239, 231;
+  --base07: #fcfcfa;
+  --base07-rgb: 252, 252, 250;
+  --base08: #e28b82;
+  --base08-rgb: 226, 139, 130;
+  --base09: #d5ad73;
+  --base09-rgb: 213, 173, 115;
+  --base0A: #b2d084;
+  --base0A-rgb: 178, 208, 132;
+  --base0B: #83bda5;
+  --base0B-rgb: 131, 189, 165;
+  --base0C: #9cc6c9;
+  --base0C-rgb: 156, 198, 201;
+  --base0D: #78adc4;
+  --base0D-rgb: 120, 173, 196;
+  --base0E: #bfa6d4;
+  --base0E-rgb: 191, 166, 212;
+  --base0F: #d2a0b2;
+  --base0F-rgb: 210, 160, 178;
+  --base0D-h: 198;
+  --base0D-s: 39%;
+  --base0D-l: 62%;
+  --base0D-light: #92c7de;
+  --base0A-alpha: rgba(178, 208, 132, 0.3);
+  --base02-alpha: rgba(62, 81, 35, 0.6);
+}
+
+.theme-light.base16-lichen-chartreuse {
+  --base00: #f5f7f2;
+  --base00-rgb: 245, 247, 242;
+  --base01: #ecefe7;
+  --base01-rgb: 236, 239, 231;
+  --base02: #cfe4ae;
+  --base02-rgb: 207, 228, 174;
+  --base03: #687161;
+  --base03-rgb: 104, 113, 97;
+  --base04: #4e5149;
+  --base04-rgb: 78, 81, 73;
+  --base05: #2d302b;
+  --base05-rgb: 45, 48, 43;
+  --base06: #232420;
+  --base06-rgb: 35, 36, 32;
+  --base07: #151613;
+  --base07-rgb: 21, 22, 19;
+  --base08: #a34740;
+  --base08-rgb: 163, 71, 64;
+  --base09: #8b5d27;
+  --base09-rgb: 139, 93, 39;
+  --base0A: #506b29;
+  --base0A-rgb: 80, 107, 41;
+  --base0B: #2f7462;
+  --base0B-rgb: 47, 116, 98;
+  --base0C: #356569;
+  --base0C-rgb: 53, 101, 105;
+  --base0D: #356e8a;
+  --base0D-rgb: 53, 110, 138;
+  --base0E: #6e5689;
+  --base0E-rgb: 110, 86, 137;
+  --base0F: #8a4f67;
+  --base0F-rgb: 138, 79, 103;
+  --base0D-h: 200;
+  --base0D-s: 45%;
+  --base0D-l: 37%;
+  --base0D-light: #4f88a4;
+  --base0A-alpha: rgba(80, 107, 41, 0.3);
+  --base02-alpha: rgba(207, 228, 174, 0.6);
 }
 
 .base16-lime {
