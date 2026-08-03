@@ -351,6 +351,8 @@ settings:
         value: base16-mountain
       - label: "Nebula"
         value: base16-nebula
+      - label: "Neovim"
+        value: base16-neovim
       - label: "Noche"
         value: base16-noche
       - label: "Nord"
@@ -9248,6 +9250,88 @@ settings:
   --base0D-light: #6785d0;
   --base0A-alpha: rgba(79, 144, 98, 0.3);
   --base02-alpha: rgba(90, 131, 128, 0.6);
+}
+
+.theme-dark.base16-neovim {
+  --base00: #14161b;
+  --base00-rgb: 20, 22, 27;
+  --base01: #07080d;
+  --base01-rgb: 7, 8, 13;
+  --base02: #4f5258;
+  --base02-rgb: 79, 82, 88;
+  --base03: #9b9ea4;
+  --base03-rgb: 155, 158, 164;
+  --base04: #c4c6cd;
+  --base04-rgb: 196, 198, 205;
+  --base05: #e0e2ea;
+  --base05-rgb: 224, 226, 234;
+  --base06: #eef1f8;
+  --base06-rgb: 238, 241, 248;
+  --base07: #eef1f8;
+  --base07-rgb: 238, 241, 248;
+  --base08: #ffc0b9;
+  --base08-rgb: 255, 192, 185;
+  --base09: #ffa500;
+  --base09-rgb: 255, 165, 0;
+  --base0A: #fce094;
+  --base0A-rgb: 252, 224, 148;
+  --base0B: #b3f6c0;
+  --base0B-rgb: 179, 246, 192;
+  --base0C: #8cf8f7;
+  --base0C-rgb: 140, 248, 247;
+  --base0D: #a6dbff;
+  --base0D-rgb: 166, 219, 255;
+  --base0E: #ffcaff;
+  --base0E-rgb: 255, 202, 255;
+  --base0F: #cd853f;
+  --base0F-rgb: 205, 133, 63;
+  --base0D-h: 204;
+  --base0D-s: 100%;
+  --base0D-l: 83%;
+  --base0D-light: #c0f5ff;
+  --base0A-alpha: rgba(252, 224, 148, 0.3);
+  --base02-alpha: rgba(79, 82, 88, 0.6);
+}
+
+.theme-light.base16-neovim {
+  --base00: #e0e2ea;
+  --base00-rgb: 224, 226, 234;
+  --base01: #eef1f8;
+  --base01-rgb: 238, 241, 248;
+  --base02: #9b9ea4;
+  --base02-rgb: 155, 158, 164;
+  --base03: #4f5258;
+  --base03-rgb: 79, 82, 88;
+  --base04: #2c2e33;
+  --base04-rgb: 44, 46, 51;
+  --base05: #14161b;
+  --base05-rgb: 20, 22, 27;
+  --base06: #07080d;
+  --base06-rgb: 7, 8, 13;
+  --base07: #07080d;
+  --base07-rgb: 7, 8, 13;
+  --base08: #590008;
+  --base08-rgb: 89, 0, 8;
+  --base09: #8b4513;
+  --base09-rgb: 139, 69, 19;
+  --base0A: #6b5300;
+  --base0A-rgb: 107, 83, 0;
+  --base0B: #005523;
+  --base0B-rgb: 0, 85, 35;
+  --base0C: #007373;
+  --base0C-rgb: 0, 115, 115;
+  --base0D: #004c73;
+  --base0D-rgb: 0, 76, 115;
+  --base0E: #470045;
+  --base0E-rgb: 71, 0, 69;
+  --base0F: #a52a2a;
+  --base0F-rgb: 165, 42, 42;
+  --base0D-h: 200;
+  --base0D-s: 100%;
+  --base0D-l: 23%;
+  --base0D-light: #1a668d;
+  --base0A-alpha: rgba(107, 83, 0, 0.3);
+  --base02-alpha: rgba(155, 158, 164, 0.6);
 }
 
 .base16-noche {
