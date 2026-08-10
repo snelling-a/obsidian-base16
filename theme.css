@@ -383,6 +383,8 @@ settings:
         value: base16-paraiso
       - label: "Pasque"
         value: base16-pasque
+      - label: "Pastelón de Amarillos"
+        value: base16-pastelon-de-amarillos
       - label: "Penumbra Dark Contrast Plus Plus"
         value: base16-penumbra-dark-contrast-plus-plus
       - label: "Penumbra Dark Contrast Plus"
@@ -10070,6 +10072,88 @@ settings:
   --base0D-light: #a897e0;
   --base0A-alpha: rgba(128, 78, 173, 0.3);
   --base02-alpha: rgba(62, 45, 92, 0.6);
+}
+
+.theme-dark.base16-pastelon-de-amarillos {
+  --base00: #180d18;
+  --base00-rgb: 24, 13, 24;
+  --base01: #2a1424;
+  --base01-rgb: 42, 20, 36;
+  --base02: #432031;
+  --base02-rgb: 67, 32, 49;
+  --base03: #a0747c;
+  --base03-rgb: 160, 116, 124;
+  --base04: #c39a89;
+  --base04-rgb: 195, 154, 137;
+  --base05: #ffe0a3;
+  --base05-rgb: 255, 224, 163;
+  --base06: #ffebc5;
+  --base06-rgb: 255, 235, 197;
+  --base07: #fff7e6;
+  --base07-rgb: 255, 247, 230;
+  --base08: #ff646a;
+  --base08-rgb: 255, 100, 106;
+  --base09: #f99a32;
+  --base09-rgb: 249, 154, 50;
+  --base0A: #ffc84a;
+  --base0A-rgb: 255, 200, 74;
+  --base0B: #3ccb83;
+  --base0B-rgb: 60, 203, 131;
+  --base0C: #35c4b6;
+  --base0C-rgb: 53, 196, 182;
+  --base0D: #5a9fe6;
+  --base0D-rgb: 90, 159, 230;
+  --base0E: #d978cf;
+  --base0E-rgb: 217, 120, 207;
+  --base0F: #e2764a;
+  --base0F-rgb: 226, 118, 74;
+  --base0D-h: 210;
+  --base0D-s: 74%;
+  --base0D-l: 63%;
+  --base0D-light: #74b9ff;
+  --base0A-alpha: rgba(255, 200, 74, 0.3);
+  --base02-alpha: rgba(67, 32, 49, 0.6);
+}
+
+.theme-light.base16-pastelon-de-amarillos {
+  --base00: #fff4d6;
+  --base00-rgb: 255, 244, 214;
+  --base01: #f2d083;
+  --base01-rgb: 242, 208, 131;
+  --base02: #d69b45;
+  --base02-rgb: 214, 155, 69;
+  --base03: #80616b;
+  --base03-rgb: 128, 97, 107;
+  --base04: #684653;
+  --base04-rgb: 104, 70, 83;
+  --base05: #432c3b;
+  --base05-rgb: 67, 44, 59;
+  --base06: #2f1c2e;
+  --base06-rgb: 47, 28, 46;
+  --base07: #1c0f20;
+  --base07-rgb: 28, 15, 32;
+  --base08: #bd3548;
+  --base08-rgb: 189, 53, 72;
+  --base09: #ad570f;
+  --base09-rgb: 173, 87, 15;
+  --base0A: #946400;
+  --base0A-rgb: 148, 100, 0;
+  --base0B: #167451;
+  --base0B-rgb: 22, 116, 81;
+  --base0C: #007270;
+  --base0C-rgb: 0, 114, 112;
+  --base0D: #1e5da8;
+  --base0D-rgb: 30, 93, 168;
+  --base0E: #8d3f89;
+  --base0E-rgb: 141, 63, 137;
+  --base0F: #7c3528;
+  --base0F-rgb: 124, 53, 40;
+  --base0D-h: 213;
+  --base0D-s: 70%;
+  --base0D-l: 39%;
+  --base0D-light: #3877c2;
+  --base0A-alpha: rgba(148, 100, 0, 0.3);
+  --base02-alpha: rgba(214, 155, 69, 0.6);
 }
 
 .base16-penumbra-dark-contrast-plus-plus {
