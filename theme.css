@@ -131,6 +131,8 @@ settings:
         value: base16-codeschool
       - label: "Colors"
         value: base16-colors
+      - label: "Corduroy"
+        value: base16-corduroy
       - label: "Cupcake"
         value: base16-cupcake
       - label: "Cupertino"
@@ -893,42 +895,42 @@ settings:
 .base16-apprentice {
   --base00: #262626;
   --base00-rgb: 38, 38, 38;
-  --base01: #AF5F5F;
-  --base01-rgb: 175, 95, 95;
-  --base02: #5F875F;
-  --base02-rgb: 95, 135, 95;
-  --base03: #87875F;
-  --base03-rgb: 135, 135, 95;
-  --base04: #5F87AF;
-  --base04-rgb: 95, 135, 175;
-  --base05: #5F5F87;
-  --base05-rgb: 95, 95, 135;
-  --base06: #5F8787;
-  --base06-rgb: 95, 135, 135;
-  --base07: #6C6C6C;
-  --base07-rgb: 108, 108, 108;
-  --base08: #444444;
-  --base08-rgb: 68, 68, 68;
+  --base01: #303030;
+  --base01-rgb: 48, 48, 48;
+  --base02: #3A3A3A;
+  --base02-rgb: 58, 58, 58;
+  --base03: #444444;
+  --base03-rgb: 68, 68, 68;
+  --base04: #6C6C6C;
+  --base04-rgb: 108, 108, 108;
+  --base05: #BCBCBC;
+  --base05-rgb: 188, 188, 188;
+  --base06: #DFDFDF;
+  --base06-rgb: 223, 223, 223;
+  --base07: #FFFFFF;
+  --base07-rgb: 255, 255, 255;
+  --base08: #AF5F5F;
+  --base08-rgb: 175, 95, 95;
   --base09: #FF8700;
   --base09-rgb: 255, 135, 0;
-  --base0A: #87AF87;
-  --base0A-rgb: 135, 175, 135;
-  --base0B: #FFFFAF;
-  --base0B-rgb: 255, 255, 175;
-  --base0C: #87AFD7;
-  --base0C-rgb: 135, 175, 215;
-  --base0D: #8787AF;
-  --base0D-rgb: 135, 135, 175;
-  --base0E: #5FAFAF;
-  --base0E-rgb: 95, 175, 175;
-  --base0F: #BCBCBC;
-  --base0F-rgb: 188, 188, 188;
-  --base0D-h: 240;
-  --base0D-s: 20%;
-  --base0D-l: 61%;
-  --base0D-light: #a1a1c9;
-  --base0A-alpha: rgba(135, 175, 135, 0.3);
-  --base02-alpha: rgba(95, 135, 95, 0.6);
+  --base0A: #87875F;
+  --base0A-rgb: 135, 135, 95;
+  --base0B: #5F875F;
+  --base0B-rgb: 95, 135, 95;
+  --base0C: #5F8787;
+  --base0C-rgb: 95, 135, 135;
+  --base0D: #5F87AF;
+  --base0D-rgb: 95, 135, 175;
+  --base0E: #5F5F87;
+  --base0E-rgb: 95, 95, 135;
+  --base0F: #AF5F5F;
+  --base0F-rgb: 175, 95, 95;
+  --base0D-h: 210;
+  --base0D-s: 33%;
+  --base0D-l: 53%;
+  --base0D-light: #79a1c9;
+  --base0A-alpha: rgba(135, 135, 95, 0.3);
+  --base02-alpha: rgba(58, 58, 58, 0.6);
 }
 
 .theme-dark.base16-arroz-con-dulce {
@@ -3963,6 +3965,47 @@ settings:
   --base0D-light: #1a8ef3;
   --base0A-alpha: rgba(255, 220, 0, 0.3);
   --base02-alpha: rgba(85, 85, 85, 0.6);
+}
+
+.base16-corduroy {
+  --base00: #1d1920;
+  --base00-rgb: 29, 25, 32;
+  --base01: #261e2a;
+  --base01-rgb: 38, 30, 42;
+  --base02: #2e2533;
+  --base02-rgb: 46, 37, 51;
+  --base03: #6f6373;
+  --base03-rgb: 111, 99, 115;
+  --base04: #887b8c;
+  --base04-rgb: 136, 123, 140;
+  --base05: #cdc8d0;
+  --base05-rgb: 205, 200, 208;
+  --base06: #cdc8d0;
+  --base06-rgb: 205, 200, 208;
+  --base07: #504757;
+  --base07-rgb: 80, 71, 87;
+  --base08: #e06278;
+  --base08-rgb: 224, 98, 120;
+  --base09: #e99d90;
+  --base09-rgb: 233, 157, 144;
+  --base0A: #edb392;
+  --base0A-rgb: 237, 179, 146;
+  --base0B: #4b8686;
+  --base0B-rgb: 75, 134, 134;
+  --base0C: #e99d90;
+  --base0C-rgb: 233, 157, 144;
+  --base0D: #d27f91;
+  --base0D-rgb: 210, 127, 145;
+  --base0E: #c285b2;
+  --base0E-rgb: 194, 133, 178;
+  --base0F: #887b8c;
+  --base0F-rgb: 136, 123, 140;
+  --base0D-h: 347;
+  --base0D-s: 48%;
+  --base0D-l: 66%;
+  --base0D-light: #ec99ab;
+  --base0A-alpha: rgba(237, 179, 146, 0.3);
+  --base02-alpha: rgba(46, 37, 51, 0.6);
 }
 
 .base16-cupcake {
