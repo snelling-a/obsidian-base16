@@ -6,6 +6,8 @@ on:
       - main
   workflow_call:
 
+concurrency: main-push
+
 jobs:
   release:
     runs-on: ubuntu-latest

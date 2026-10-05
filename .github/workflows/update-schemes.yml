@@ -5,6 +5,8 @@ on:
     - cron: "0 0 * * 1"
   workflow_dispatch:
 
+concurrency: main-push
+
 jobs:
   update:
     runs-on: ubuntu-latest
