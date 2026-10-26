@@ -5,10 +5,9 @@ on:
     - cron: "0 0 * * 1"
   workflow_dispatch:
 
-concurrency: main-push
-
 jobs:
   update:
+    concurrency: main-push
     runs-on: ubuntu-latest
     permissions:
       contents: write
