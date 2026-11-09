@@ -23,6 +23,8 @@ settings:
         value: base16-ascendancy
       - label: "Ashes"
         value: base16-ashes
+      - label: "Aftertaerm"
+        value: base16-ataerm
       - label: "Atelier Cave"
         value: base16-atelier-cave
       - label: "Atelier Dune"
@@ -1131,6 +1133,47 @@ settings:
   --base0D-light: #c8afe1;
   --base0A-alpha: rgba(174, 199, 149, 0.3);
   --base02-alpha: rgba(86, 94, 101, 0.6);
+}
+
+.base16-ataerm {
+  --base00: #26282a;
+  --base00-rgb: 38, 40, 42;
+  --base01: #303234;
+  --base01-rgb: 48, 50, 52;
+  --base02: #3c3e41;
+  --base02-rgb: 60, 62, 65;
+  --base03: #6f6f6f;
+  --base03-rgb: 111, 111, 111;
+  --base04: #a8a8a8;
+  --base04-rgb: 168, 168, 168;
+  --base05: #f0f0f0;
+  --base05-rgb: 240, 240, 240;
+  --base06: #f1f1f1;
+  --base06-rgb: 241, 241, 241;
+  --base07: #ffffff;
+  --base07-rgb: 255, 255, 255;
+  --base08: #ff8878;
+  --base08-rgb: 255, 136, 120;
+  --base09: #ffb88a;
+  --base09-rgb: 255, 184, 138;
+  --base0A: #fffcb7;
+  --base0A-rgb: 255, 252, 183;
+  --base0B: #b4fb73;
+  --base0B-rgb: 180, 251, 115;
+  --base0C: #a2e1f8;
+  --base0C-rgb: 162, 225, 248;
+  --base0D: #8bbce5;
+  --base0D-rgb: 139, 188, 229;
+  --base0E: #ffb2fe;
+  --base0E-rgb: 255, 178, 254;
+  --base0F: #d69a8a;
+  --base0F-rgb: 214, 154, 138;
+  --base0D-h: 207;
+  --base0D-s: 63%;
+  --base0D-l: 72%;
+  --base0D-light: #a5d6ff;
+  --base0A-alpha: rgba(255, 252, 183, 0.3);
+  --base02-alpha: rgba(60, 62, 65, 0.6);
 }
 
 .theme-dark.base16-atelier-cave {
